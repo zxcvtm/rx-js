@@ -1,4 +1,4 @@
-import { FETCH_USER_SUCCESS} from './user-constants'
+import { FETCH_USER_SUCCESS} from '../Constants/user-constants'
 
 const users = (state = {}, action) => {
     switch (action.type) {

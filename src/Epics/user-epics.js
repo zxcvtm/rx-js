@@ -1,8 +1,8 @@
 import { ajax } from 'rxjs/ajax';
 import { map, mergeMap } from 'rxjs/operators';
 import { ofType } from 'redux-observable';
-import { fetchUserSuccess } from './user-actions'
-import { FETCH_USER } from './user-constants'
+import { fetchUserSuccess } from '../Actions/user-actions'
+import { FETCH_USER } from '../Constants/user-constants'
 
 
 const fetchUserEpic = action$ => action$.pipe(
